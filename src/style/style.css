@@ -1,0 +1,51 @@
+:root {
+  --main-color: #232635;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+@media screen and (max-width: 920px) {
+  
+}
+
+nav {
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem 1.25rem;
+  background-color: transparent;
+}
+
+input#menu{
+  visibility: hidden;
+}
+
+input#menu~ul { 
+  background-color: ;
+  width: 100%;
+  list-style: none;
+  height: 100%;
+  position: absolute;
+  right: 100%;
+  transition: all 300ms linear;
+}
+
+input#menu:checked ~ ul {
+  right: 0;
+}
+
+ul {
+  display: none;
+}
+
+li {
+  
+}
