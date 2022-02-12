@@ -18,19 +18,24 @@ body {
 } */
 
 nav {
-  justify-content: flex-end;
+  display:flex;
+  justify-content:flex-end;
   align-items: center;
   padding: 0.5rem 1.25rem;
   background-color: transparent;
 }
 
-input#menu{
+nav>div {
+    width: 50px;
+}
+
+
+input#menu-hamburguesa{
   visibility: hidden;
 }
 
-input#menu~ul { 
-  /* background-color: ; */
-  width: 100%;
+input#menu-hamburguesa~ul { 
+  background-color: ;  width: 100%;
   list-style: none;
   height: 100%;
   position: absolute;
@@ -38,14 +43,23 @@ input#menu~ul {
   transition: all 300ms linear;
 }
 
-input#menu:checked ~ ul {
-  right: 0;
+input#menu-hamburguesa:checked ~ ul {
+  right: 0; 
 }
 
-ul {
-  display: none;
+/****** inicio media query****/
+@media only screen and (min-width: 768px) {
+  label{
+    display: none;
+  }
+
+  input#menu-hamburguesa~ul{
+    position: static;
+    display: flex;
+  }
 }
 
-/* li {}
-  
-} */
+input#menu-hamburguesa~ul>li {
+  padding: 0, 1rem;
+
+}
