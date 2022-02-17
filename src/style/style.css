@@ -18,7 +18,7 @@ body {
   background-position: right top;
 }
 
-/***********INICIO NAV************/
+/***********STAR NAV************/
 nav {
   display:flex;
   justify-content:flex-end;
@@ -51,8 +51,8 @@ input#menu-hamburguesa~ul {
 input#menu-hamburguesa:checked ~ ul {
   right: 0; 
 }
-/****************Fin del NAV *******************/
-/***************Inicio Section ****************/
+/****************END NAV *******************/
+/***************STAR SECTION ABOUT ****************/
 
 #about-section {
     position: relative;
@@ -83,11 +83,25 @@ input#menu-hamburguesa:checked ~ ul {
   color: var(--accent-color);
 }
 
+img { 
+  max-width: 40%;
+  max-height: 40%;
+}
+
+#photo-profile {
+  width: 32px;
+
+}
+/*******************END SECTION ABOUT*****************/
+/***************STAR SECTION ACDEMI CAREER ****************/
+#academic-career { 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
 
 
-
-
-/**********FIN NAV**********/
+/***************END SECTION ACDEMI CAREER ****************/
 /******** inicio media query******/
 /*@media only screen and (min-width: 768px) {
     
