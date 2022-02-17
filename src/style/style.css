@@ -83,6 +83,15 @@ input#menu-hamburguesa:checked ~ ul {
   color: var(--accent-color);
 }
 
+.social-icon-wrapper{
+  margin-top: 1rem;
+}
+
+.social-icon-wrapper>.icon{
+  margin-right: 1rem;
+  width: 24px;
+}
+
 img { 
   max-width: 40%;
   max-height: 40%;
@@ -93,15 +102,34 @@ img {
 
 }
 /*******************END SECTION ABOUT*****************/
-/***************STAR SECTION ACDEMI CAREER ****************/
-#academic-career { 
-  position: relative;
+/***************STAR SECTION ACDEMIC CAREER ****************/
+#academic-career {
+  background-image: url("../img/Vectores/Rectangle\ 33.svg");
+  text-align: center;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
 }
+a:hover{
+
+}
+
+.conten-img-about{
+  display: flex;
+  justify-content:space-around;
+}
+
+.formation{
+  margin: 2rem 2rem;
+}
+.formation img{
+  width: 400px;
+}
 
 
-/***************END SECTION ACDEMI CAREER ****************/
+
+
+/***************END SECTION ACDEMIC CAREER ****************/
 /******** inicio media query******/
 /*@media only screen and (min-width: 768px) {
     
