@@ -166,13 +166,8 @@ a:hover{
   width: 24px;
 }
 
-
-/* #experience-section>div { 
-  flex-direction: column; 
-}*/
-.experience-box>h2 {
-  /* position:relative; */
-  text-align: center;
+.experience-box h2 {
+   text-align: center;
   padding: 0 1.25rem;
 }
 
@@ -182,6 +177,35 @@ a:hover{
 
 
 /****************END SECTION EXPERIENCE********************/
+/****************STAR SECTION MY ABILITIE******************/
+#my-habilities { 
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../img/Vectores/Rectangle\ 34-1.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.container-abilities {
+  height: 100%;
+  margin: 15% 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.container-abilities h2 {
+  color: #F1A600;
+  margin: 10% 5%;
+}
+
+.container-abilities p {
+  margin: 5% 5%;
+}
+
+.percentage { 
+  margin-top: 15%;
+}
+
+/****************END SECTION MY ABILITIE******************/
 /******************STAR MEDIA QUERY***********************/
 /*@media only screen and (min-width: 768px) {
     
