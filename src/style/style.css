@@ -1,5 +1,5 @@
 :root {
-  --main-color: #232635;
+  --main-color: #1F1D2C;
   --accent-color: #F1A600;
 }
 
@@ -94,7 +94,6 @@ input#menu-hamburguesa:checked ~ ul {
 
 img { 
   max-width: 40%;
-  max-height: 40%;
 }
 
 #photo-profile {
@@ -110,8 +109,11 @@ img {
   display: flex;
   flex-direction: column;
 }
+a {
+  color: #fff;
+}
 a:hover{
-
+  color: #F1A600;
 }
 
 .conten-img-about{
@@ -128,9 +130,59 @@ a:hover{
 
 
 
-
 /***************END SECTION ACDEMIC CAREER ****************/
-/******** inicio media query******/
+/****************STAR SECTION EXPERIENCE*******************/
+#experience-section { 
+  display:flex;
+  flex-direction: column;
+}
+
+.experience-box {
+  margin: 5% 5%;
+}
+
+.container-box { 
+  width: 100%;
+  display: flex;
+  
+}
+
+.container-icons{
+  width: 70%;
+}
+
+.exp-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.range-bar{ 
+  height: 100%;
+  margin-left: 15%;
+}
+
+.bar{
+  width: 24px;
+}
+
+
+/* #experience-section>div { 
+  flex-direction: column; 
+}*/
+.experience-box>h2 {
+  /* position:relative; */
+  text-align: center;
+  padding: 0 1.25rem;
+}
+
+#range-bar { 
+  justify-content: flex-end;
+}
+
+
+/****************END SECTION EXPERIENCE********************/
+/******************STAR MEDIA QUERY***********************/
 /*@media only screen and (min-width: 768px) {
     
   label{
