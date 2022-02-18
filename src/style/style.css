@@ -178,14 +178,19 @@ a:hover{
 
 /****************END SECTION EXPERIENCE********************/
 /****************STAR SECTION MY ABILITIE******************/
-#my-habilities { 
+#my-abilities { 
   display:flex;
   flex-direction: column;
   text-align: center;
-  background-image: url(../img/Vectores/Rectangle\ 34-1.svg);
+  background-image: url(../img/Vectores/Rectangle\ 35.svg);
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: left top;
 }
+
+#my-abilities div>h2{
+  margin-top: 4rem;
+}
+
 .container-abilities {
   height: 100%;
   margin: 15% 15%;
