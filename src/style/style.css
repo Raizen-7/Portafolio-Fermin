@@ -206,6 +206,62 @@ a:hover{
 }
 
 /****************END SECTION MY ABILITIE******************/
+/****************STAR SECTION MY PORTFOLIO******************/
+#my-portfolio { 
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+}
+
+.container-portfolio {
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+
+.image-left { 
+   text-align: left;
+}
+
+/****************END SECTION MY PORTFOLIO******************/
+/****************STAR SECTION CONTACT******************/
+#contact-resume { 
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../img/Vectores/Rectangle\ 33-1.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  margin: 1rem;
+}
+
+.number-phone {
+  margin: 1rem;
+  text-align: left;  
+  background-image: url("../img/Íconos/phone\ 3.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.email {
+  margin: 1rem;
+  text-align: right; 
+  background-image: url("../img/Íconos/mail\ 3.svg");
+  background-repeat: no-repeat;
+  background-position: right top; 
+}
+
+
+
+
+footer { 
+  text-align: center;
+}
+
+
+
 /******************STAR MEDIA QUERY***********************/
 /*@media only screen and (min-width: 768px) {
     
