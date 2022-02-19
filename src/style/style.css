@@ -208,8 +208,8 @@ a:hover{
   margin: 5% 5%;
 }
 
-.margin-sctions { 
-  margin-top: 4rem;
+.margin-sections { 
+  margin-top: 2rem;
 }
 
 .percentage { 
@@ -254,27 +254,36 @@ a:hover{
   background-image: url(../img/Vectores/Rectangle\ 33-1.svg);
   background-repeat: no-repeat;
   background-position: left bottom;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .number-phone {
   margin: 1rem;
-  text-align: left;  
-  background-image: url("../img/Íconos/phone\ 3.svg");
-  background-repeat: no-repeat;
-  background-position: left top;
+  text-align: left; 
+}
+
+.image-phone {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .email {
   margin: 1rem;
-  text-align: right; 
-  background-image: url("../img/Íconos/mail\ 3.svg");
-  background-repeat: no-repeat;
-  background-position: right top; 
+  display: flex;
+  flex-direction: column;
+    text-align: right; 
 }
 
+.content-image-email {
+  width: 100%;
+  display: flex;
+  justify-content:flex-end;
+}
 
-
+/* .image-email {
+width: 40%;
+} */
 
 footer { 
   text-align: center;
@@ -292,10 +301,12 @@ footer {
   input#menu-hamburguesa~ul{
     position: static;
     display: flex;
+    
   }
 }
 
 input#menu-hamburguesa~ul>li {
   padding: 0, 1rem;
-
+  margin-right: 5%;
+  text-align: right;
 }
